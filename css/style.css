@@ -1,3 +1,7 @@
-body{
-  font-family: 'Inter', Arial, sans-serif;
+/*COMMON*/
+body {
+	font-family: "Inter", Arial, sans-serif;
+}
+ul {
+	list-style-type: none;
 }
