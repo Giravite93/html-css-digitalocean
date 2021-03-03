@@ -15,6 +15,29 @@ a:hover {
 	padding: 20px 0;
 }
 
+.title-section h2 {
+	font-weight: 800;
+	color: #031b4e;
+	font-size: 40px;
+}
+.title-section p {
+	font-weight: 300;
+	color: #5b6987;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.content_services h4 {
+	color: #031b4e;
+	font-weight: 600;
+}
+.content_services p {
+	color: #5b6987;
+	font-weight: 500;
+}
+.img-services img {
+	padding-bottom: 10px;
+}
 /*HEADER*/
 
 /*Menu*/
@@ -130,4 +153,26 @@ nav .menu .sign_up {
 }
 .list_logo a {
 	font-weight: 700;
+}
+
+/*Deploy*/
+.deploy .list_services ul {
+	padding: 0 0 46px 10px;
+}
+.deploy .list_services li {
+	border-left: 2px solid #e5e8ed;
+	padding: 10px 0 10px 10px;
+}
+.deploy .list_services li:hover {
+	border-left: 2px solid #031b4e;
+}
+.deploy .list_services li a {
+	color: #031b4e99;
+	font-size: 15px;
+}
+.deploy .list_services li a:hover {
+	color: #031b4e;
+}
+.deploy [class*="col-"] {
+	padding-bottom: 20px;
 }
