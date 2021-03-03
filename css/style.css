@@ -1,6 +1,7 @@
 /*COMMON*/
 body {
 	font-family: "Inter", Arial, sans-serif;
+	min-width: 320px;
 }
 ul {
 	list-style-type: none;
@@ -8,6 +9,10 @@ ul {
 a,
 a:hover {
 	text-decoration: none;
+}
+
+.padding-td-20 {
+	padding: 20px 0;
 }
 
 /*HEADER*/
@@ -90,7 +95,7 @@ nav .menu .sign_up {
 }
 .my_jumbotron .card .google_sign-up .btn_google {
 	position: relative;
-	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 8px 9px 8px 0px rgb(0 0 0 / 50%);
 	font-weight: 600;
 }
 .my_jumbotron .card .term_condition {
@@ -103,4 +108,26 @@ nav .menu .sign_up {
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
+}
+
+/*MAIN*/
+
+/*list logo*/
+.list_logo {
+	background-color: #f3f5f9;
+	padding: 30px 0;
+}
+.list_logo .intro_title h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: #5b6987;
+}
+.list_logo .list_agency li {
+	display: inline-block;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+.list_logo a {
+	font-weight: 700;
 }
