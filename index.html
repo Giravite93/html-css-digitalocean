@@ -27,22 +27,47 @@
 		<!--HEADER-->
 		<header>
 			<!--Logo and Nav-->
-			<div class="top-nav">
+			<nav class="top-nav">
 				<div class="container">
 					<div class="row">
 						<!--Logo-->
 						<div class="col-xs-6 col-sm-6 col-md-2">
-							<img class="img-responsive" src="img/logo.png" alt="Logo" />
+							<img class="img-responsive logo" src="img/logo.png" alt="Logo" />
 						</div>
 						<!--Menu-->
-						<div class="xs-hidden sm-hidden col-md-5">
-							<ul>
-								<li><a href="#">Products</a></li>
+						<!--Central-->
+						<div class="hidden-xs hidden-sm col-md-6">
+							<ul class="menu text-right">
+								<li>
+									<a href="#">Products <i class="fas fa-chevron-down"></i></a>
+								</li>
+								<li><a href="#">Customers</a></li>
+								<li>
+									<a href="#">Community <i class="fas fa-chevron-down"></i></a>
+								</li>
+								<li><a href="#">Princing</a></li>
 							</ul>
+						</div>
+						<!--Right-->
+						<div class="hidden-xs hidden-sm col-md-4">
+							<ul class="menu text-right">
+								<li><a href="#">Docs</a></li>
+								<li>
+									<a href="#">Support <i class="fas fa-chevron-down"></i></a>
+								</li>
+								<li><a href="#">Login</a></li>
+								<li><a class="btn sign_up" href="#">Sign Up</a></li>
+							</ul>
+						</div>
+						<!--Burger-->
+						<div class="col-xs-6 col-sm-6 hidden-md hidden-lg">
+							<div class="burger text-right">
+								<i class="fas fa-bars"></i>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</nav>
 		</header>
 		<!--END HEADER-->
 	</body>
