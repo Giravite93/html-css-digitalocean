@@ -9,6 +9,7 @@ a,
 a:hover {
 	text-decoration: none;
 }
+
 /*HEADER*/
 
 /*Menu*/
@@ -25,7 +26,7 @@ nav.top-nav ul li {
 nav .menu li,
 nav .burger i {
 	line-height: 40px;
-	margin-left: 5px;
+	margin-left: 10px;
 }
 nav .menu li a {
 	color: #031b4f;
@@ -46,4 +47,59 @@ nav .menu .sign_up {
 	background-color: transparent;
 	border: 1px solid #2786fd;
 	color: #2786fd;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url("../img/ms-jumbo.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	color: white;
+}
+.jumbotron .teaser h1 {
+	font-weight: 700;
+	font-size: 50px;
+}
+.jumbotron .teaser p {
+	font-weight: 300;
+	font-size: 20px;
+	color: #bbcdff;
+}
+.jumbotron .card {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 4px rgba(54, 53, 53, 0.5);
+	color: #031b4f;
+	padding: 30px;
+}
+.jumbotron .card h3 {
+	color: #2786fd;
+}
+.jumbotron .card h2,
+.jumbotron .card h3 {
+	font-weight: 600;
+	font-size: 30px;
+}
+.jumbotron .card .btn_light-blue {
+	background-color: #006aff;
+	color: white;
+}
+.jumbotron .card .btn_light-blue:hover {
+	background-color: #1633ff;
+}
+.jumbotron .card .google_sign-up .btn_google {
+	position: relative;
+	box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+	font-weight: 600;
+}
+.jumbotron .card .term_condition {
+	font-weight: 300;
+	font-size: 13px;
+}
+.jumbotron .card .google_sign-up img {
+	position: absolute;
+	max-width: 30px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
 }

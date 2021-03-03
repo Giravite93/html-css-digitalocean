@@ -14,10 +14,14 @@
 			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
 			crossorigin="anonymous"
 		/>
-		<!--Font medium/bold/Light-->
+		<!--Font Regular/medium/bold/Light-->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
@@ -29,7 +33,7 @@
 			<!--Logo and Nav-->
 			<nav class="top-nav">
 				<div class="container">
-					<div class="row">
+					<div class="row row-no-gutters">
 						<!--Logo-->
 						<div class="col-xs-6 col-sm-6 col-md-2">
 							<img class="img-responsive logo" src="img/logo.png" alt="Logo" />
@@ -68,6 +72,68 @@
 					</div>
 				</div>
 			</nav>
+			<!--Jumbotron-->
+			<section class="jumbotron">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="teaser">
+								<h1>The simplest cloud platform for developers & teams</h1>
+								<p>
+									Deploy, manage, and scale cloud applications faster and more
+									efficiently on DigitalOcean. We make managing infrastructure
+									easy for teams and businesses, whether you're running one
+									virtual machine or ten thousand.
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="card text-center">
+								<h2>Deploy your app in seconds.</h2>
+								<h3>Get started now.</h3>
+								<form id="signed_form" action="#">
+									<div class="form-group">
+										<label for="email" class="sr-only">Email</label>
+										<input
+											type="email"
+											id="email"
+											class="form-control"
+											placeholder="Email"
+										/>
+									</div>
+									<div class="form-group">
+										<label for="password" class="sr-only">Password</label>
+										<input
+											type="password"
+											id="password"
+											class="form-control"
+											placeholder="Password"
+										/>
+									</div>
+									<div class="form-group">
+										<button
+											type="submit"
+											class="btn btn_light-blue form-control"
+										>
+											Create your account
+										</button>
+									</div>
+									<div class="form-group google_sign-up">
+										<button class="btn btn_google form-control">
+											<img src="img/google-icon.png" alt="Google" /> Sign up
+											with google
+										</button>
+									</div>
+									<p class="term_condition">
+										By signing up you agree to the
+										<a href="#">Terms of Service</a>
+									</p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</header>
 		<!--END HEADER-->
 	</body>
