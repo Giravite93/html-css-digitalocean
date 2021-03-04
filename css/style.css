@@ -118,7 +118,7 @@ nav .menu .sign_up {
 }
 .my_jumbotron .card .google_sign-up .btn_google {
 	position: relative;
-	box-shadow: 8px 9px 8px 0px rgb(0 0 0 / 50%);
+	box-shadow: 4px 4px 4px 0px rgb(0 0 0 / 50%);
 	font-weight: 600;
 }
 .my_jumbotron .card .term_condition {
@@ -156,8 +156,8 @@ nav .menu .sign_up {
 }
 
 /*Deploy*/
-.deploy .list_services ul {
-	padding: 0 0 46px 10px;
+.deploy .list_services {
+	padding: 0 0 46px 90px;
 }
 .deploy .list_services li {
 	border-left: 2px solid #e5e8ed;
@@ -168,11 +168,18 @@ nav .menu .sign_up {
 }
 .deploy .list_services li a {
 	color: #031b4e99;
-	font-size: 15px;
+	font-size: 20px;
 }
 .deploy .list_services li a:hover {
 	color: #031b4e;
 }
 .deploy [class*="col-"] {
 	padding-bottom: 20px;
+}
+
+/*Media Query*/
+@media (max-width: 767px) {
+	.deploy .list_services {
+		padding: 0;
+	}
 }
