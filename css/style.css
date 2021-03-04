@@ -223,6 +223,11 @@ nav .menu .sign_up {
 	font-weight: 500;
 }
 
+/*The Feature*/
+.features .content_services a {
+	display: inline-block;
+}
+
 /*Media Query*/
 @media (max-width: 767px) {
 	/*Deploy*/
