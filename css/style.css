@@ -70,6 +70,9 @@ a:hover {
 	color: #031c4e;
 }
 
+.circles ul {
+	padding: 0;
+}
 .circles .circle {
 	border-radius: 50%;
 	width: 15px;
@@ -255,6 +258,39 @@ nav .menu .sign_up {
 	border-bottom: 0;
 	padding-bottom: 20px;
 }
+
+/*Development*/
+.development .layer_gallery .content_layer {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+	padding: 40px;
+	margin: auto;
+	max-width: 70%;
+}
+.development .layer_gallery .content_layer h5 {
+	font-weight: 300;
+	color: #031b4e;
+	font-size: 20px;
+}
+.development .layer_gallery .content_layer p:first-of-type {
+	font-weight: 500;
+	color: #031b4e;
+	font-size: 16px;
+}
+.development .layer_gallery .content_layer p:last-of-type {
+	font-weight: 500;
+	color: #031b4e;
+	font-size: 11px;
+	margin-top: -10px;
+}
+.development .layer_gallery .content_layer a {
+	color: #337ab7;
+}
+.development .layer_gallery .content_layer img {
+	width: 35%;
+}
+
 /*Media Query*/
 @media (max-width: 767px) {
 	/*Deploy*/
