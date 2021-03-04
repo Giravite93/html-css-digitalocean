@@ -302,6 +302,42 @@ nav .menu .sign_up {
 	font-weight: 500;
 }
 
+/*FOOTER*/
+footer {
+	background-color: #031c4e;
+}
+footer .inner_col .content_col p {
+	color: #8b94a9;
+}
+footer .inner_col .content_col p small {
+	color: #5a6887;
+}
+footer .inner_col .content_col ul {
+	padding: 0;
+}
+footer .inner_col .content_col ul li {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+footer .inner_col .content_col ul li i {
+	font-size: 20px;
+}
+footer .inner_col .content_col a {
+	color: #8b94a9;
+}
+footer .footer_menu li:first-child {
+	color: white;
+	font-size: 21px;
+	cursor: initial;
+}
+footer .footer_menu li {
+	color: #a6adbd;
+	font-size: 19px;
+	padding: 5px 0;
+	cursor: pointer;
+}
+
 /*Media Query*/
 @media (max-width: 767px) {
 	/*Deploy*/
