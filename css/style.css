@@ -312,7 +312,8 @@ footer .inner_col .content_col p {
 footer .inner_col .content_col p small {
 	color: #5a6887;
 }
-footer .inner_col .content_col ul {
+footer .inner_col .content_col ul,
+footer .footer_menu {
 	padding: 0;
 }
 footer .inner_col .content_col ul li {
