@@ -14,6 +14,9 @@ a:hover {
 .padding-td-20 {
 	padding: 20px 0;
 }
+.padding-t-10 {
+	padding-top: 10px;
+}
 
 .title-section h2 {
 	font-weight: 800;
@@ -228,6 +231,30 @@ nav .menu .sign_up {
 	display: inline-block;
 }
 
+/*Services*/
+.services {
+	background: rgb(0, 72, 197);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 72, 197, 1) 0%,
+		rgba(0, 30, 153, 1) 100%
+	);
+}
+.services .title-section h2,
+.services .row {
+	color: white;
+}
+.services .link_nation a {
+	color: #00d5d2;
+}
+.row.padding-td-20 .row {
+	border-bottom: 1px solid white;
+	margin: 0;
+}
+.row.padding-td-20 .row:last-child {
+	border-bottom: 0;
+	padding-bottom: 20px;
+}
 /*Media Query*/
 @media (max-width: 767px) {
 	/*Deploy*/
